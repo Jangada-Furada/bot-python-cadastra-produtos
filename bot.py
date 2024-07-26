@@ -11,7 +11,7 @@ def coleta_dados_produtos():
     bot = WebBot()
     bot.headless = False
     bot.browser = Browser.FIREFOX
-    bot.driver_path = r"C:\Users\gianl\Downloads\geckodriver-v0.34.0-win-aarch64.zip"
+    bot.driver_path = r"C:\Users\gianl\Estudos\python"
 
     # Configurando opções customizadas no navegador
     def_options = default_options(headless=bot.headless, user_data_dir=user_dir)
